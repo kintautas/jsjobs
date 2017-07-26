@@ -1,5 +1,17 @@
+class Job {
+  constructor(id, title, description, skills) {
+    this.id = id;
+    this.title = title;
+    this.description = description;
+    this.skills = skills;
+  }
+}
+
+
+
 var skills = ['css','html','css3','html5']
 var shown = [];
+var selected = [];
 function showSkills() {
 	var inputSkill = document.getElementById("inputSuccess").value;
 
